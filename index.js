@@ -1,5 +1,5 @@
 let username;
-
-username = window.prompt("What's your user name?");
-
-document.getElementById("p1").textContent = `Hello there, ${username}!`;
+document.getElementById("mySubmit").onclick = function(){
+    username=document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `Welcome ${username}`
+}
