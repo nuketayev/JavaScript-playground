@@ -1,8 +1,12 @@
-document.getElementById("myH1").textContent = `hello`;
-document.getElementById("myP").textContent = `brother`;
-let x=120;
-let price=10.4344;
-console.log(price);
-console.log(`You are worth of ${price}$`)
-console.log(typeof price)
-let email = "akzhol.ca@ca.ca"
+// let online = true;
+
+// console.log(typeof online);
+// console.log(`Is he only? ${online}`)
+
+let fullName = "Aka";
+let age = 24;
+let isStudent =true;
+
+document.getElementById("p1").textContent = fullName;;
+document.getElementById("p2").textContent = age;
+document.getElementById("p3").textContent = isStudent;
