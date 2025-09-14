@@ -1,18 +1,12 @@
-const decreaseBtn = document.getElementById("decreaseBtn");
-const resetBtn = document.getElementById("resetBtn");
-const increaseBtn = document.getElementById("increaseBtn");
-const countLabel = document.getElementById("countLabel");
-let count = 0;
+const generate = document.getElementById('generate');
+const reset = document.getElementById('reset');
+const min = 1;
+const max = 100;
 
-increaseBtn.onclick = function(){
-    count++;
-    countLabel.textContent = `${count}`
+generate.onclick = function(){
+    let randomNum =Math.floor(Math.random() * (max-min))+min;
+    document.getElementById('label').textContent = `${randomNum}`
 };
-resetBtn.onclick = function(){
-    count = 0;
-    countLabel.textContent = `${count}`
-}
-decreaseBtn.onclick = function(){
-    count--;
-    countLabel.textContent = `${count}`
-}
+reset.onclick = function(){
+    document.getElementById('label').textContent = `?`
+};

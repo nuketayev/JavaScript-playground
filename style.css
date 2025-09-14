@@ -1,23 +1,21 @@
-#countLabel{
-    display:block;
-    text-align: center;
-    font-size:10em;
-}
 body{
-    font-family:helvetica;
-}
-#btnContainer{
     text-align:center;
 }
 .buttons{
-    padding:10px 20px;
-    font-size:1.5em;
-    color:black;
-    background-color: rgb(223, 223, 223);
-    border-radius:5px;
-    cursor:pointer;
-    transition:background-color 0.25s;
+    background-color: rgb(238, 238, 238);
+    font-size:2em;
+    padding:15px 25px;
+    border-radius:8px;
 }
 .buttons:hover{
-    background-color: gray;
+    transition:background-color 0.5s;
+    background-color: rgb(208, 208, 208);
+    cursor:pointer;
+}
+#label{
+    display:block;
+    text-align: center;
+    font-size:5em;
+    color:brown;
+
 }
